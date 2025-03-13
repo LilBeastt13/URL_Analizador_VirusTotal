@@ -1,1 +1,13 @@
-This is a Python script that helps generate an Excel file with the reputation of URLs based on a list in .txt format using the VirusTotal tool.
+ 📝 Analizador de URLs con VirusTotal
+
+## Descripción
+Este script en Python permite analizar una lista de URLs sospechosas utilizando la API de VirusTotal y generar un reporte en formato Excel con los resultados del análisis.
+
+## Requisitos
+- Python 3.x
+- Librerías: `virus_total_apis`, `openpyxl`
+
+## Instalación
+1. Instala las librerías necesarias:
+   ```bash
+   pip install virus_total_apis openpyxl
